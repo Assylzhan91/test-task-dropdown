@@ -78,7 +78,13 @@ function getData() {
                     id: 4.1,
                     parentId: 4,
                     name: 'name4.1',
-
+                    children: [
+                        {
+                            id: '4.1.1',
+                            parentId: 4.1,
+                            name: 'name4.1.1',
+                        }
+                    ]
                 },
 
                 {

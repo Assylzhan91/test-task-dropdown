@@ -10,8 +10,7 @@ export default class extends Component{
         function  handleData(arr){
 
             return arr.map((data, n) => {
-
-                return <Item data={data} key={n}  />
+                return <Item data={data} key={n}/>
             });
         }
 
